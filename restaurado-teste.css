@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@400;600&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Single", system-ui;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+}
+
+/* HEADER */
+
+header {
+    background-color: #720693;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #F472FF;
+}
+
+.logo img {
+    width: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #d8e86e;
+}
+
+.icones-header {
+    display: flex;
+    gap: 25px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* COLUNAS */
+
+.coluna-principal {
+    width: 50%;
+}
+
+.coluna-secundaria {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* NOTÍCIA PRINCIPAL */
+
+.noticia-principal h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.noticia-principal p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* PRIMEIRA SEÇÃO DE NOTÍCIAS */
+
+.primeira-secao-de-noticias {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.primeira-secao-de-noticias article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.primeira-secao-de-noticias img {
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+/* COLUNA SECUNDÁRIA – AJUSTES VISUAIS */
+
+.coluna-secundaria article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.coluna-secundaria img {
+    width: 100%;
+    height: 260px;
+    border-radius: 12px;
+}
+
+.coluna-secundaria h4 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.coluna-secundaria ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+/* BOTÃO */
+
+.coluna-secundaria button {
+    width: 100%;
+    height: 50px;
+    background-color: #F472FF;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* CORES */
+
+.cor-lilas {
+    color: #F472FF;
+}
+
+.cor-vermelha {
+    color: #c00000;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #720693;
+    color: white;
+}

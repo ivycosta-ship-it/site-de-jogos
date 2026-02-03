@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Single", system-ui;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* HEADER */
+
+header {
+    background-color: #720693;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #F472FF;
+}
+
+.logo img {
+    width: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #d8e86e;
+}
+
+.icones-header {
+    display: flex;
+    gap: 25px;
+}
+
+main {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.noticia-principal {
+display: flex;
+}
+
+.img-noticia-principal {
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.cor-lilas {
+    color: #F472FF;
+}
+
+.noticia-um {
+   display: flex;
+}
+
+.noticia-um img {
+    width: 200px;
+    height: auto;
+}
+
